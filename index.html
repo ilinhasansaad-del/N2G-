@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="level-select-screen.css">
+    <link rel="stylesheet" href="m.style.css">
+</head>
+
+<body>
+
+    <main id="game-app">
+
+        <!-- ==================== HEADER ==================== -->
+        <header id="game-header">
+
+            <div class="game-brand">
+                <img src="guess the num.png" alt="Number Guessing Game Icon" id="game-icon">
+
+                <h1 id="game-title">Number Guessing Game<span>.</span></h1>
+            </div>
+
+            <div class="score-display">
+                <span>Score:</span>
+                <span id="header-score">0</span>
+            </div>
+
+        </header>
+
+
+        <!-- ==================== HOME SCREEN ==================== -->
+        <section id="home-screen" class="screen">
+
+            <div class="home-content">
+
+                <div class="home-deading">
+                    <h2 id="home-title">
+                        Welcome to the <span>Number Guessing Game</span>
+                    </h2>
+                    <h1 id="home-exclamation">!</h1>
+                </div>
+
+                <p id="home-description">
+                    Test your guessing skills, logic and patience.
+                    Choose a level and try to find the <span id=hid1>hidden</span> number.
+                </p>
+
+
+                <!-- HOW TO PLAY -->
+                <div id="how-to-play">
+
+                    <h3>How To Play <span>.</span></h3>
+
+                    <div class="rule-list">
+
+                        <div class="rule-item">
+                            <span class="rule-number">1<span id=color-of-dot>.</span></span>
+                            <p>Choose a difficulty level.</p>
+                        </div>
+
+                        <div class="rule-item">
+                            <span class="rule-number">2<span id=color-of-dot>.</span></span>
+                            <p>Guess the hidden number.</p>
+                        </div>
+
+                        <div class="rule-item">
+                            <span class="rule-number">3<span id=color-of-dot>.</span></span>
+                            <p>Use the hints to improve your guesses.</p>
+                        </div>
+
+                        <div class="rule-item">
+                            <span class="rule-number">4<span id=color-of-dot>.</span></span>
+                            <p>Try to complete the level with fewer attempts.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- START GAME -->
+                <div class="button-area">
+
+                    <button type="button" id="start-game-btn">
+                        <a href="level-select-screen.html">Start game</a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="m.style.css">
+</head>
+<body>
+    <!-- ==================== GAME SCREEN ==================== -->
+        <section id="game-screen" class="screen">
+
+            <!-- GAME HEADER -->
+            <div id="game-status">
+
+                <div class="status-item">
+                    <span>Level</span>
+                    <strong id="current-level">1</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Score</span>
+                    <strong id="current-score">0</strong>
+                </div>
+
+                <div class="status-item">
+                    <span>Attempts Left</span>
+                    <strong id="attempts-remaining">5</strong>
+                </div>
+
+            </div>
+
+
+            <!-- GAME CONTENT -->
+            <div id="game-content">
+
+                <h2 id="level-title">
+                    Level 1 — <span id="leveltitleeasy">Easy</span>
+                </h2>
+
+                <p id="game-instruction">
+                    Guess the hidden number.
+                </p>
+
+                <p id="number-range">
+                    Choose a number between
+                    <span id="min-number">1</span>
+                    and
+                    <span id="max-number">100</span>.
+                </p>
+
+
+                <!-- GUESS AREA -->
+                <div id="guess-area">
+
+                    <label for="guess-input">
+                        Enter your guess
+                    </label>
+
+                    <input type="number" id="guess-input" name="guess" placeholder="Enter a number" autocomplete="off">
+
+                    <button type="button" id="guess-btn">
+                        Guess
+                    </button>
+
+                </div>
+
+
+                <!-- HINT AREA -->
+                <div id="hint-area">
+
+
+                    <button type="button" id="hint-btn">
+                        Get Hint
+                    </button>
+
+                    <div id="hint-text">
+
+                        <p id="hint-title">Your Hint</p>
+
+                        <div id="hint-message">
+                            Hint will appear here.
+                        </div>
+
+                        <p id="hints-counter">
+                            Hints remaining: <span id="hints-remaining">2</span>
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- FEEDBACK / ERROR AREA -->
+                <div id="feedback-area">
+
+                    <p id="game-message" aria-live="polite">
+                        Make your first guess!
+                    </p>
+
+                </div>
+
+
+                <!-- GAME CONTROLS -->
+                <div id="game-controls">
+
+                    <button type="button" id="quit-game-btn">
+                        <a href="level.result-screen.html">Quit Game</a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+</body>
+</html>

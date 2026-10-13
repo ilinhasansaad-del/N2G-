@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="m.style.css">
+</head>
+<body>
+    <!-- ==================== LEVEL SELECT SCREEN ==================== -->
+        <section id="level-select-screen" class="screen">
+
+            <div class="level-select-content">
+
+                <h2>Select a <span id="levelid">Level</span>.</h2>
+
+                <p id="levelp">
+                    Choose a difficulty level to start the game.
+                </p>
+
+
+                <div id="level-list">
+
+
+                    <!-- LEVEL 1 -->
+                    <article class="level-card" id="level-1-card" data-level="1">
+
+                        <h3>Level 1</h3>
+
+                        <p class="level-name">Easy</p>
+
+                        <div class="level-info">
+
+                            <p>
+                                Range:
+                                <span id="level-1-range">1–100</span>
+                            </p>
+
+                            <p>
+                                Attempts:
+                                <span id="level-1-attempts">5</span>
+                            </p>
+
+                            <p>
+                                Maximum Points:
+                                <span id="level-1-points">10</span>
+                            </p>
+
+                        </div>
+
+                        <button type="button" class="select-level-btn" id="select-level-1-btn" data-level="1">
+                            <a href="game-screen.html">Select Level</a>
+                        </button>
+
+                    </article>
+
+
+                    <!-- LEVEL 2 -->
+                    <article class="level-card" id="level-2-card" data-level="2">
+
+                        <h3>Level 2</h3>
+
+                        <p class="level-name">Medium</p>
+
+                        <div class="level-info">
+
+                            <p>
+                                Range:
+                                <span id="level-2-range">1–350</span>
+                            </p>
+
+                            <p>
+                                Attempts:
+                                <span id="level-2-attempts">6</span>
+                            </p>
+
+                            <p>
+                                Maximum Points:
+                                <span id="level-2-points">20</span>
+                            </p>
+
+                        </div>
+
+                        <button type="button" class="select-level-btn2" id="select-level-2-btn" data-level="2">
+                            Select Level
+                        </button>
+
+                    </article>
+
+
+                    <!-- LEVEL 3 -->
+                    <article class="level-card" id="level-3-card" data-level="3">
+
+                        <h3>Level 3</h3>
+
+                        <p class="level-name">Hard</p>
+
+                        <div class="level-info">
+
+                            <p>
+                                Range:
+                                <span id="level-3-range">1–700</span>
+                            </p>
+
+                            <p>
+                                Attempts:
+                                <span id="level-3-attempts">7</span>
+                            </p>
+
+
+                            <p>
+                                Maximum Points:
+                                <span id="level-3-points">30</span>
+                            </p>
+
+                        </div>
+
+                        <button type="button" class="select-level-btn2" id="select-level-3-btn" data-level="3">
+                            Select Level
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+</body>
+</html>
