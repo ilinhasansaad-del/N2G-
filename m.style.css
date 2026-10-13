@@ -48,16 +48,16 @@ body {
 }
 
 body h1 {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1.2;
     padding: 10px;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 body h1 span {
     color: var(--accent);
-    font-size: 65px;
+    font-size: 85px;
 }
 
 header img {
@@ -84,7 +84,7 @@ header img {
     border: 1px solid var(--border);
     border-radius: var(--radius-medium);
     max-width: 500px;
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -100,8 +100,6 @@ header img {
 }
 
 
-
-
 .home-deading {
     display: flex;
     justify-content: space-between;
@@ -110,7 +108,7 @@ header img {
 }
 
 #home-title {
-    font-size: 34px;
+    font-size: 56px;
     box-sizing: border-box;
     max-width: 300px;
     padding: 30px;
@@ -119,11 +117,11 @@ header img {
 
 #home-title span {
     color: #7F011F;
-    font-size: 36px;
+    font-size: 58px;
 }
 
 #home-exclamation {
-    font-size: 220px;
+    font-size: 330px;
     margin: 0;
     line-height: 1;
     flex-shrink: 0;
@@ -131,7 +129,7 @@ header img {
 }
 
 #home-description {
-    font-size: 23px;
+    font-size: 33px;
     margin-top: 40px;
     box-sizing: border-box;
     padding: 20px;
@@ -144,7 +142,7 @@ header img {
 }
 
 #how-to-play {
-    margin-top: 70px;
+    margin-top: 100px;
     box-sizing: border-box;
     padding: 14px;
     border: 1px solid var(--border);
@@ -152,12 +150,12 @@ header img {
 }
 
 #how-to-play h3 {
-    font-size: 30px;
+    font-size: 37px;
     text-align: start;
 }
 
 #how-to-play h3 span {
-    font-size: 50px;
+    font-size: 60px;
     color: #7F011F;
 }
 
@@ -174,11 +172,11 @@ header img {
 
 #color-of-dot {
     color: #7F011F;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .rule-item p {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 #start-game-btn {
@@ -192,7 +190,7 @@ header img {
     cursor: pointer;
     height: 40px;
     font-size: 17px;
-    
+    height: 30px;
 }
 #start-game-btn a {
     text-decoration: none;
@@ -207,7 +205,7 @@ header img {
     color: var(--accent);
 }
 #level-select-screen {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .level-select-content {
@@ -231,12 +229,24 @@ header img {
     background-color: #7F011F;
     padding: 15px;
     border-radius: 6px;
-    margin-top: 34px;
+    margin-top: 50px;
+}
+.level-card2 {
+    box-sizing: border-box;
+    background-color: #510115;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 50px;
+    cursor: not-allowed;
 }
 
 .level-card h3 {
     font-size: 22px;
     color: var(--surface);
+}
+.level-card2 h3 {
+    font-size: 22px;
+    color: #f2eded;
 }
 
 .level-name {
@@ -275,7 +285,7 @@ header img {
     color: #5F0118;
     background-color: #F5EBD0;
 }
-.select-level-btn2 {
+.select-level-btn {
     width: 100%;
     border-radius: 7px;
     border: #7F011F;
@@ -284,8 +294,8 @@ header img {
 }
 .select-level-btn2:hover {
     color: #5F0118;
-    background-color: #F5EBD0;
 }
+
 
 #game-status {
     display: flex;
