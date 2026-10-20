@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 8px;
@@ -1250,37 +1251,37 @@ input {
 /* Medium screens and tablets */
 @media (max-width: 768px) {
     body h1 {
-        font-size: clamp(2rem, 6vw, 2.8rem);
-        margin-top: 20px;
+        font-size: clamp(2.24rem, 6.72vw, 3.136rem);
+        margin-top: 22px;
     }
 
     body h1 span {
-        font-size: clamp(2.4rem, 7vw, 3.6rem);
+        font-size: clamp(2.688rem, 7.84vw, 4.032rem);
     }
 
     header img {
-        margin-top: 12px;
+        margin-top: 13.2px;
     }
 
     .score-display {
         width: 100%;
         max-width: 100%;
-        margin-top: 18px;
+        margin-top: 19.8px;
     }
 
     .score-display span {
         padding-right: 0;
-        font-size: 1rem;
+        font-size: 1.12rem;
     }
 
     .home-deading {
-        gap: 10px;
+        gap: 11px;
     }
 
     #home-title {
         max-width: 70%;
-        padding: 16px;
-        font-size: clamp(1.6rem, 4.5vw, 2.1rem);
+        padding: 17.6px;
+        font-size: clamp(1.792rem, 5.04vw, 2.352rem);
     }
 
     #home-title span {
@@ -1290,38 +1291,38 @@ input {
 
     #home-exclamation {
         max-width: 30%;
-        font-size: clamp(5rem, 17vw, 9rem);
+        font-size: clamp(5.6rem, 19.04vw, 10.08rem);
     }
 
     #home-description {
-        margin-top: 18px;
-        padding: 12px;
-        font-size: clamp(1rem, 2.6vw, 1.25rem);
+        margin-top: 19.8px;
+        padding: 13.2px;
+        font-size: clamp(1.12rem, 2.912vw, 1.4rem);
     }
 
     #hid1 {
-        font-size: 1.2em;
+        font-size: 1.344em;
     }
 
     #how-to-play {
-        margin-top: 28px;
+        margin-top: 30.8px;
     }
 
     #how-to-play h3 {
-        font-size: 1.5rem;
+        font-size: 1.68rem;
     }
 
     #how-to-play h3 span {
-        font-size: 1.7em;
+        font-size: 1.904em;
     }
 
     .rule-item span {
-        font-size: 1rem;
+        font-size: 1.12rem;
         flex-shrink: 0;
     }
 
     .rule-item p {
-        font-size: 0.95rem;
+        font-size: 1.064rem;
     }
 
     #start-game-btn {
@@ -1329,26 +1330,26 @@ input {
     }
 
     #level-select-screen {
-        margin-top: 18px;
+        margin-top: 19.8px;
     }
 
     .level-select-content h2 {
-        font-size: clamp(1.6rem, 4.5vw, 2rem);
+        font-size: clamp(1.792rem, 5.04vw, 2.24rem);
     }
 
     #levelp {
-        font-size: 1rem;
+        font-size: 1.12rem;
         line-height: 1.6;
     }
 
     .level-card {
-        margin-top: 18px;
-        padding: 16px;
+        margin-top: 19.8px;
+        padding: 17.6px;
     }
 
     #game-status {
-        gap: 10px;
-        padding: 12px;
+        gap: 11px;
+        padding: 13.2px;
     }
 
     .status-item {
@@ -1356,29 +1357,29 @@ input {
     }
 
     .status-item strong {
-        font-size: 1.3rem;
+        font-size: 1.456rem;
     }
 
     #game-content {
-        margin-top: 18px;
-        padding: 14px;
+        margin-top: 19.8px;
+        padding: 15.4px;
     }
 
     #level-title {
-        font-size: clamp(1.4rem, 4vw, 1.8rem);
+        font-size: clamp(1.568rem, 4.48vw, 2.016rem);
     }
 
     #hint-area {
         width: 100%;
-        margin: 16px 0 0;
-        padding: 12px;
-        gap: 12px;
+        margin: 17.6px 0 0;
+        padding: 13.2px;
+        gap: 13.2px;
     }
 
     #feedback-area {
         width: 100%;
-        margin: 16px 0 0;
-        padding: 12px;
+        margin: 17.6px 0 0;
+        padding: 13.2px;
     }
 
     #quit-game-btn {
@@ -1388,95 +1389,95 @@ input {
 
     #result-details,
     #score-summary {
-        gap: 12px;
+        gap: 13.2px;
     }
 
     .result-item {
         min-height: 96px;
-        padding: 14px;
-        gap: 8px;
+        padding: 15.4px;
+        gap: 8.8px;
     }
 
     .result-item strong {
-        font-size: clamp(1.25rem, 3vw, 1.6rem);
+        font-size: clamp(1.4rem, 3.36vw, 1.792rem);
     }
 
     .summary-item {
         min-height: 100px;
-        padding: 16px;
-        gap: 8px;
+        padding: 17.6px;
+        gap: 8.8px;
     }
 
     .summary-item strong {
-        font-size: clamp(1.3rem, 3vw, 1.75rem);
+        font-size: clamp(1.456rem, 3.36vw, 1.96rem);
     }
 }
 
 /* Phones */
 @media (max-width: 480px) {
     body {
-        font-size: 16px;
+        font-size: 17.9px;
     }
 
     body h1 {
-        font-size: 1.9rem;
+        font-size: 2.128rem;
         line-height: 1.2;
-        margin-top: 14px;
-        padding: 6px;
+        margin-top: 15.4px;
+        padding: 6.6px;
     }
 
     body h1 span {
-        font-size: 2.2rem;
+        font-size: 2.464rem;
     }
 
     .home-deading {
         align-items: center;
-        gap: 12px;
+        gap: 13.2px;
     }
 
     #home-title {
         max-width: 76%;
-        padding: 8px;
-        font-size: clamp(1.45rem, 6vw, 1.85rem);
+        padding: 8.8px;
+        font-size: clamp(1.624rem, 6.72vw, 2.072rem);
     }
 
     #home-exclamation {
         max-width: 24%;
-        font-size: clamp(4.5rem, 22vw, 6.5rem);
+        font-size: clamp(5.04rem, 24.64vw, 7.28rem);
     }
 
     #home-description {
-        margin-top: 14px;
-        padding: 8px;
-        font-size: 1.05rem;
+        margin-top: 15.4px;
+        padding: 8.8px;
+        font-size: 1.176rem;
     }
 
     #how-to-play {
-        margin-top: 20px;
-        padding: 14px;
+        margin-top: 22px;
+        padding: 15.4px;
     }
 
     #how-to-play h3 {
-        font-size: 1.4rem;
+        font-size: 1.568rem;
     }
 
     .rule-item {
         align-items: flex-start;
-        gap: 12px;
-        margin-top: 14px;
+        gap: 13.2px;
+        margin-top: 15.4px;
     }
 
     .rule-item span {
         min-width: 18px;
-        font-size: 1.05rem;
+        font-size: 1.176rem;
     }
 
     .rule-item p {
-        font-size: 1rem;
+        font-size: 1.12rem;
     }
 
     #start-game-btn {
-        margin-top: 18px;
+        margin-top: 19.8px;
         letter-spacing: 0;
     }
 
@@ -1485,266 +1486,266 @@ input {
     }
 
     .level-select-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.68rem;
     }
 
     .level-card {
-        padding: 13px;
-        margin-top: 14px;
+        padding: 14.3px;
+        margin-top: 15.4px;
     }
 
     .level-card h3 {
-        font-size: 1.25rem;
+        font-size: 1.4rem;
     }
 
     .level-info {
-        font-size: 1rem;
-        gap: 12px;
+        font-size: 1.12rem;
+        gap: 13.2px;
     }
 
     .level-info p {
         align-items: flex-start;
-        gap: 12px;
+        gap: 13.2px;
     }
 
     .select-level-btn,
     .select-level-btn2 {
-        padding: 14px;
-        font-size: 1rem;
+        padding: 15.4px;
+        font-size: 1.12rem;
     }
 
     #game-status {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 12px;
-        padding: 14px;
+        gap: 13.2px;
+        padding: 15.4px;
     }
 
     .status-item {
         width: 100%;
         min-width: 0;
-        gap: 8px;
+        gap: 8.8px;
     }
 
     .status-item span {
-        font-size: 0.85rem;
+        font-size: 0.952rem;
         text-align: center;
     }
 
     .status-item strong {
-        font-size: 1.15rem;
+        font-size: 1.288rem;
     }
 
     #game-content {
-        margin-top: 14px;
-        padding: 14px;
+        margin-top: 15.4px;
+        padding: 15.4px;
     }
 
     #level-title {
-        font-size: 1.4rem;
+        font-size: 1.568rem;
     }
 
     #game-instruction,
     #number-range p {
-        font-size: 1rem;
+        font-size: 1.12rem;
         line-height: 1.5;
     }
 
     #min-number,
     #max-number {
-        font-size: 1rem;
+        font-size: 1.12rem;
     }
 
     #guess-area {
-        margin-top: 14px;
+        margin-top: 15.4px;
         padding: 0;
     }
 
     label {
-        font-size: 1rem;
+        font-size: 1.12rem;
     }
 
     #guess-input {
-        font-size: 1.05rem;
+        font-size: 1.176rem;
     }
 
     #guess-btn {
-        margin-top: 14px;
-        font-size: 1.05rem;
+        margin-top: 15.4px;
+        font-size: 1.176rem;
     }
 
     #hint-area {
         align-items: stretch;
         flex-direction: column;
-        margin-top: 14px;
-        padding: 14px;
+        margin-top: 15.4px;
+        padding: 15.4px;
     }
 
     #hint-btn {
         width: 100%;
-        padding: 10px 12px;
+        padding: 11px 13.2px;
     }
 
     #hint-title {
-        font-size: 1.05rem;
+        font-size: 1.176rem;
     }
 
     #hint-message {
         min-height: 64px;
-        padding: 14px;
-        font-size: 1rem;
+        padding: 15.4px;
+        font-size: 1.12rem;
     }
 
     #hints-counter {
-        font-size: 0.9rem;
+        font-size: 1.008rem;
     }
 
     #feedback-area {
-        margin-top: 14px;
-        padding: 14px;
-        font-size: 1rem;
+        margin-top: 15.4px;
+        padding: 15.4px;
+        font-size: 1.12rem;
     }
 
     #quit-game-btn {
-        margin-top: 14px;
-        font-size: 1.05rem;
+        margin-top: 15.4px;
+        font-size: 1.176rem;
     }
 
     #level-result-screen {
         min-height: 100svh;
-        padding: 14px;
+        padding: 15.4px;
     }
 
     #level-result-content {
-        padding: 18px 14px;
+        padding: 19.8px 15.4px;
         border-radius: 14px;
     }
 
     #result-status {
-        gap: 12px;
-        margin-bottom: 18px;
+        gap: 13.2px;
+        margin-bottom: 19.8px;
     }
 
     #result-status-title {
-        font-size: 1.55rem;
+        font-size: 1.736rem;
     }
 
     #result-status-message {
-        font-size: 1rem;
+        font-size: 1.12rem;
         line-height: 1.5;
     }
 
     #result-details {
         grid-template-columns: minmax(0, 1fr);
-        gap: 12px;
-        margin-bottom: 18px;
+        gap: 13.2px;
+        margin-bottom: 19.8px;
     }
 
     .result-item {
         min-height: 76px;
-        padding: 14px;
-        gap: 8px;
+        padding: 15.4px;
+        gap: 8.8px;
     }
 
     .result-item span {
-        font-size: 0.95rem;
+        font-size: 1.064rem;
     }
 
     .result-item strong {
-        font-size: 1.4rem;
+        font-size: 1.568rem;
     }
 
     #level-result-actions {
         flex-direction: column;
-        gap: 12px;
+        gap: 13.2px;
     }
 
     #level-result-actions button {
         width: 100%;
         flex: auto;
         min-height: 46px;
-        padding: 12px 14px;
-        font-size: 1rem;
+        padding: 13.2px 15.4px;
+        font-size: 1.12rem;
     }
 
     #final-result-screen {
         min-height: 100svh;
-        padding: 14px;
+        padding: 15.4px;
     }
 
     #final-result-content {
-        padding: 20px 14px;
+        padding: 22px 15.4px;
         border-radius: 14px;
     }
 
     #game-complete-title {
-        margin-bottom: 10px;
-        font-size: 1.7rem;
+        margin-bottom: 11px;
+        font-size: 1.904rem;
     }
 
     #final-message {
-        margin-bottom: 20px;
-        font-size: 1rem;
+        margin-bottom: 22px;
+        font-size: 1.12rem;
         line-height: 1.55;
     }
 
     #score-summary {
         grid-template-columns: minmax(0, 1fr);
-        gap: 12px;
-        margin-bottom: 18px;
+        gap: 13.2px;
+        margin-bottom: 19.8px;
     }
 
     .summary-item {
         min-height: 76px;
-        padding: 14px;
-        gap: 8px;
+        padding: 15.4px;
+        gap: 8.8px;
     }
 
     .summary-item span {
-        font-size: 0.95rem;
+        font-size: 1.064rem;
     }
 
     .summary-item strong {
-        font-size: 1.4rem;
+        font-size: 1.568rem;
     }
 
     #final-performance {
-        margin-bottom: 18px;
-        padding: 14px 10px;
+        margin-bottom: 19.8px;
+        padding: 15.4px 11px;
     }
 
     #performance-rating {
-        margin-bottom: 8px;
-        font-size: 1.25rem;
+        margin-bottom: 8.8px;
+        font-size: 1.4rem;
     }
 
     #performance-message {
-        font-size: 1rem;
+        font-size: 1.12rem;
         line-height: 1.55;
     }
 
     #final-actions {
         flex-direction: column;
-        gap: 12px;
+        gap: 13.2px;
     }
 
     #final-actions button {
         width: 100%;
         flex: auto;
         min-height: 46px;
-        padding: 12px 14px;
-        font-size: 1rem;
+        padding: 13.2px 15.4px;
+        font-size: 1.12rem;
     }
 }
 
 /* Very narrow phones */
 @media (max-width: 340px) {
     #home-title {
-        font-size: 1.3rem;
+        font-size: 1.456rem;
     }
 
     #home-exclamation {
-        font-size: 4rem;
+        font-size: 4.48rem;
     }
 
     #game-status {
@@ -1754,7 +1755,7 @@ input {
     .status-item {
         flex-direction: row;
         justify-content: space-between;
-        gap: 8px;
+        gap: 8.8px;
     }
 
     .status-item span {
@@ -1763,15 +1764,15 @@ input {
 
     #level-result-content,
     #final-result-content {
-        padding: 12px 10px;
+        padding: 13.2px 11px;
     }
 
     #result-status-title {
-        font-size: 1.4rem;
+        font-size: 1.568rem;
     }
 
     #game-complete-title {
-        font-size: 1.55rem;
+        font-size: 1.736rem;
     }
 }
 
